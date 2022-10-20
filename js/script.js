@@ -29,37 +29,37 @@ const infoArray = [
     {
         name:"Wayne Barnett",
         jobRole:"Founder & CEO",
-        img:"img/wayne-barnett-founder-ceo.jpg"
+        img:"wayne-barnett-founder-ceo.jpg"
     },
 
     {
         name:"Angela Caroll",
         jobRole:"Chief Editor",
-        img:"img/angela-caroll-chief-editor.jpg"
+        img:"angela-caroll-chief-editor.jpg"
     },
 
     {
         name:"Walter Gordon",
         jobRole:"Office Manager	",
-        img:"img/walter-gordon-office-manager.jpg"
+        img:"walter-gordon-office-manager.jpg"
     },
 
     {
         name:"Angela Lopez",
         jobRole:"Social Media Manager",
-        img:"img/angela-lopez-social-media-manager.jpg"
+        img:"angela-lopez-social-media-manager.jpg"
     },
 
     {
         name:"Scott Estrada",
         jobRole:"Developer",
-        img:"img/scott-estrada-developer.jpg"
+        img:"scott-estrada-developer.jpg"
     },  
     
     {
         name:"Barbara Ramos",
         jobRole:"Graphic Designerr",
-        img:"img/barbara-ramos-graphic-designer.jpg"
+        img:"barbara-ramos-graphic-designer.jpg"
     },  
 ];
 
@@ -74,7 +74,7 @@ for (let i = 0; i < infoArray.length; i++){
     console.log(thisObject.name, thisObject.jobRole, thisObject.img, "dettagli object");
     wrapper.innerHTML += `
                 <div class="card">
-                    <img src="${thisObject.img}" alt="">
+                    <img src="img/${thisObject.img}" alt="">
                     <h2>${thisObject.name}</h2>
                     <span>${thisObject.jobRole}</span>
                 </div> `
