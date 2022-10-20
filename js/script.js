@@ -40,7 +40,7 @@ const infoArray = [
 
     {
         name:"Walter Gordon",
-        jobRole:"img/Office Manager	",
+        jobRole:"Office Manager	",
         img:"img/walter-gordon-office-manager.jpg"
     },
 
